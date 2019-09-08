@@ -1,0 +1,27 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "SalesForce",
+        "description": "SalesForce on OpenFin",
+        "url": "https://brave-fox-1c1jnf-dev-ed.lightning.force.com/lightning/page/home",
+        "uuid": "salesforce-brave-fox",
+        "autoShow": true,
+        "frame": false,
+        "preloadScripts": [
+          {
+            "url": "http://localhost:5001/preload.js"
+          }
+        ]
+    },
+    "runtime": {
+        "arguments": "",
+        "version": "9.61.38.41"
+    },
+    "services": [
+      {
+        "name": "layouts"
+      }
+    ],
+    "shortcut": {
+    }
+}
